@@ -9,6 +9,8 @@ use Corcel\Concerns\OrderScopes;
 use Corcel\Model;
 use Illuminate\Contracts\Auth\Authenticatable;
 use Illuminate\Contracts\Auth\CanResetPassword;
+use Illuminate\Auth\Notifications\ResetPassword as ResetPasswordNotification;
+use Illuminate\Notifications\Notifiable;
 
 /**
  * Class User
@@ -27,11 +29,20 @@ class User extends Model implements Authenticatable, CanResetPassword
     use Aliases;
     use MetaFields;
     use OrderScopes;
+    use Notifiable;
 
     /**
      * @var string
      */
     protected $table = 'users';
+
+    protected $fillable = [
+        'display_name',
+        'user_nicename',
+        'user_login',
+        'user_email',
+        'user_pass',
+    ];
 
     /**
      * @var string
@@ -187,6 +198,7 @@ class User extends Model implements Authenticatable, CanResetPassword
      */
     public function sendPasswordResetNotification($token)
     {
+        $this->notify(new ResetPasswordNotification($token));
     }
 
     /**
