@@ -213,6 +213,11 @@ class User extends Model implements Authenticatable, CanResetPassword
         return sprintf('//secure.gravatar.com/avatar/%s?d=mm', $hash);
     }
 
+    public function user_has_role()
+    {
+        return $this->hasMany(UserHasRole::class, 'user_id');
+    }
+
     /**
      * @param mixed $value
      * @return void
