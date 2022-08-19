@@ -216,7 +216,7 @@ class User extends Model implements Authenticatable, CanResetPassword
 
     public function user_has_role()
     {
-        return $this->hasMany(UserHasRole::class, 'user_id');
+        return $this->hasMany(UserHasRoles::class, 'user_id');
     }
 
     /**
