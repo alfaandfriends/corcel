@@ -12,6 +12,7 @@ use Illuminate\Contracts\Auth\CanResetPassword;
 use Illuminate\Auth\Notifications\ResetPassword as ResetPasswordNotification;
 use Illuminate\Notifications\Notifiable;
 use App\Models\UserHasRoles;
+use Lab404\Impersonate\Models\Impersonate;
 
 /**
  * Class User
@@ -31,6 +32,7 @@ class User extends Model implements Authenticatable, CanResetPassword
     use MetaFields;
     use OrderScopes;
     use Notifiable;
+    use Impersonate;
 
     /**
      * @var string
