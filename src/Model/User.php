@@ -45,6 +45,7 @@ class User extends Model implements Authenticatable, CanResetPassword
         'user_login',
         'user_email',
         'user_pass',
+        'is_admin',
     ];
 
     /**
