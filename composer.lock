@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ca43c0e857aec6dd9ddeec0a8f468455",
+    "content-hash": "43e56cfeb679ce9ff4786eb2775ad707",
     "packages": [
         {
             "name": "bordoni/phpass",
@@ -5404,16 +5404,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.9",
+            "version": "1.6.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "0cc058854b3195ba21dc6b1f7b1f60f4ef3a9c06"
+                "reference": "47065d1be1fa05def58dc14c03cf831d3884ef0b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/0cc058854b3195ba21dc6b1f7b1f60f4ef3a9c06",
-                "reference": "0cc058854b3195ba21dc6b1f7b1f60f4ef3a9c06",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/47065d1be1fa05def58dc14c03cf831d3884ef0b",
+                "reference": "47065d1be1fa05def58dc14c03cf831d3884ef0b",
                 "shasum": ""
             },
             "require": {
@@ -5425,8 +5425,8 @@
                 "phpunit/phpunit": "<8.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "^8.5 || ^9.6.10",
-                "symplify/easy-coding-standard": "^12.0.8"
+                "phpunit/phpunit": "^8.5 || ^9.6.17",
+                "symplify/easy-coding-standard": "^12.1.14"
             },
             "type": "library",
             "autoload": {
@@ -5483,7 +5483,7 @@
                 "security": "https://github.com/mockery/mockery/security/advisories",
                 "source": "https://github.com/mockery/mockery"
             },
-            "time": "2023-12-10T02:24:34+00:00"
+            "time": "2024-03-19T16:15:45+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -5745,23 +5745,23 @@
         },
         {
             "name": "orchestra/testbench",
-            "version": "v7.41.0",
+            "version": "v7.41.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench.git",
-                "reference": "e285c4f5e20936ca628c008448ccf1e09a3739f6"
+                "reference": "dda5907965fad868817918e2b5ae776b9b70f65b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench/zipball/e285c4f5e20936ca628c008448ccf1e09a3739f6",
-                "reference": "e285c4f5e20936ca628c008448ccf1e09a3739f6",
+                "url": "https://api.github.com/repos/orchestral/testbench/zipball/dda5907965fad868817918e2b5ae776b9b70f65b",
+                "reference": "dda5907965fad868817918e2b5ae776b9b70f65b",
                 "shasum": ""
             },
             "require": {
                 "fakerphp/faker": "^1.21",
                 "laravel/framework": "^9.52.15",
                 "mockery/mockery": "^1.5.1",
-                "orchestra/testbench-core": "^7.42",
+                "orchestra/testbench-core": "^7.42.4",
                 "orchestra/workbench": "^1.4 || ^7.4",
                 "php": "^8.0",
                 "phpunit/phpunit": "^9.5.10",
@@ -5798,22 +5798,22 @@
             ],
             "support": {
                 "issues": "https://github.com/orchestral/testbench/issues",
-                "source": "https://github.com/orchestral/testbench/tree/v7.41.0"
+                "source": "https://github.com/orchestral/testbench/tree/v7.41.1"
             },
-            "time": "2024-03-13T06:56:05+00:00"
+            "time": "2024-03-19T12:54:39+00:00"
         },
         {
             "name": "orchestra/testbench-core",
-            "version": "v7.42.1",
+            "version": "v7.42.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/orchestral/testbench-core.git",
-                "reference": "cb42d162a42da4614ff69d6d3aff8680896fd699"
+                "reference": "afd77e83c3eb15c9c39cac6e18b2050dd24be252"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/cb42d162a42da4614ff69d6d3aff8680896fd699",
-                "reference": "cb42d162a42da4614ff69d6d3aff8680896fd699",
+                "url": "https://api.github.com/repos/orchestral/testbench-core/zipball/afd77e83c3eb15c9c39cac6e18b2050dd24be252",
+                "reference": "afd77e83c3eb15c9c39cac6e18b2050dd24be252",
                 "shasum": ""
             },
             "require": {
@@ -5896,7 +5896,7 @@
                 "issues": "https://github.com/orchestral/testbench/issues",
                 "source": "https://github.com/orchestral/testbench-core"
             },
-            "time": "2024-03-15T12:05:41+00:00"
+            "time": "2024-03-19T11:17:24+00:00"
         },
         {
             "name": "orchestra/workbench",
@@ -6088,16 +6088,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "1.10.62",
+            "version": "1.10.63",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "cd5c8a1660ed3540b211407c77abf4af193a6af9"
+                "reference": "ad12836d9ca227301f5fb9960979574ed8628339"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/cd5c8a1660ed3540b211407c77abf4af193a6af9",
-                "reference": "cd5c8a1660ed3540b211407c77abf4af193a6af9",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/ad12836d9ca227301f5fb9960979574ed8628339",
+                "reference": "ad12836d9ca227301f5fb9960979574ed8628339",
                 "shasum": ""
             },
             "require": {
@@ -6146,7 +6146,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-03-13T12:27:20+00:00"
+            "time": "2024-03-18T16:53:53+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -8296,26 +8296,26 @@
         },
         {
             "name": "symfony/thanks",
-            "version": "v1.2.10",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/thanks.git",
-                "reference": "e9c4709560296acbd4fe9e12b8d57a925aa7eae8"
+                "reference": "5c569ce4ab014d5b9baa50d2650a1168aedf0a21"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/thanks/zipball/e9c4709560296acbd4fe9e12b8d57a925aa7eae8",
-                "reference": "e9c4709560296acbd4fe9e12b8d57a925aa7eae8",
+                "url": "https://api.github.com/repos/symfony/thanks/zipball/5c569ce4ab014d5b9baa50d2650a1168aedf0a21",
+                "reference": "5c569ce4ab014d5b9baa50d2650a1168aedf0a21",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0|^2.0",
-                "php": ">=5.5.9"
+                "php": ">=7.1"
             },
             "type": "composer-plugin",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "1.2-dev"
+                    "dev-main": "1.3-dev"
                 },
                 "class": "Symfony\\Thanks\\Thanks"
             },
@@ -8337,7 +8337,7 @@
             "description": "Encourages sending ⭐ and 💵 to fellow PHP package maintainers (not limited to Symfony components)!",
             "support": {
                 "issues": "https://github.com/symfony/thanks/issues",
-                "source": "https://github.com/symfony/thanks/tree/v1.2.10"
+                "source": "https://github.com/symfony/thanks/tree/v1.3.0"
             },
             "funding": [
                 {
@@ -8353,7 +8353,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-10-14T17:47:37+00:00"
+            "time": "2024-03-19T12:38:11+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -8691,7 +8691,7 @@
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0.2"
+        "php": "^8.1"
     },
     "platform-dev": [],
     "plugin-api-version": "2.6.0"
