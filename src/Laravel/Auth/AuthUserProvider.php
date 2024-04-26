@@ -129,4 +129,11 @@ class AuthUserProvider implements UserProvider
 
         return $model ? new $model : new User;
     }
+    
+    public function rehashPasswordIfRequired(Authenticatable $user, array $credentials, bool $force = false)
+    {
+        // Implement your logic for rehashing the password if required.
+        // This method should return true if the password was rehashed, false otherwise.
+        return false; // Or true if you perform rehashing
+    }
 }
